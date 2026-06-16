@@ -1,0 +1,15 @@
+name: Kiran Kumar
+
+on:
+  push:
+
+  branch : [ main ]
+
+     jobs:
+
+      demo:
+        run-on : ubuntu-latest
+
+        steps:
+        - name: Greetings
+         run: echo "Hello From Prabhat"
